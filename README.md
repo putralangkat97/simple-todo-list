@@ -20,23 +20,21 @@ Open [http://localhost:8080](http://localhost:8080) with your browser to see the
 ## API endpoint
 main url: https://simple-api.anggitutomo.com
 ```bash
-GET {url}/api/list
+- GET {url}/api/list
+- GET {url}/api/list/{id}
+- DELETE {url}/api/list/{id}
 
-POST {url}/api/list
+- POST {url}/api/list
 e.g:
 {
   "title": "your title",
   "body": "body text here
 }
 
-GET {url}/api/list/{id}
-
-PATCH {url}/api/list/{id}
+- PATCH {url}/api/list/{id}
 e.g:
 {
   "title": "your title",
   "body": "body text here
 }
-
-DELETE {url}/api/list/{id}
 ```
