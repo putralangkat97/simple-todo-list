@@ -18,10 +18,11 @@ pnpm dev
 Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
 ## API endpoint
+main url: https://simple-api.anggitutomo.com
 ```bash
-GET https://simple-api.anggitutomo.com/api/list
-POST https://simple-api.anggitutomo.com/api/list
-GET https://simple-api.anggitutomo.com/api/list/{id}
-PATCH https://simple-api.anggitutomo.com/api/list/{id}
-DELETE https://simple-api.anggitutomo.com/api/list/{id}
+GET {url}/api/list
+POST {url}/api/list
+GET {url}/api/list/{id}
+PATCH {url}/api/list/{id}
+DELETE {url}/api/list/{id}
 ```
